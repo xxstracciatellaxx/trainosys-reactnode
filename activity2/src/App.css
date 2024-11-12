@@ -1,0 +1,142 @@
+#root {
+  /* max-width: 1280px;
+  /* margin: 0 auto; */
+   padding: 2rem;
+   background-color: #333;
+  /* text-align: center;  */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+.input-container {
+  margin-bottom: 1.5rem;
+  margin-left: 100px;
+  width: 100%;
+}
+
+
+.label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.input {
+  width: 50%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  color: whitesmoke;
+  margin-left: 150px;
+}
+
+/*CARD*/
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr); 
+  gap: 20px; 
+  max-width: 600px;
+  margin-left: auto;
+  margin-top: -490px;
+  margin-right: -115%;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button-card {
+  border-radius: 5px;
+  background-color: rgb(56, 56, 190);
+  color: white;
+}
+
+.alert-container {
+  margin-top: -600px;
+}
