@@ -82,3 +82,33 @@
   padding: 5px 10px;
   cursor: pointer;
 }
+
+
+/*Color-Picker*/
+.container {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heading {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.select {
+  height: 40px;
+  margin-top: 45px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.color-box {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-left: 10px;
+  border: 1px solid black;
+}
