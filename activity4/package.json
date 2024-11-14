@@ -1,0 +1,16 @@
+{
+  "name": "activity4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jannel Rivera",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "activity4": "file:",
+    "express": "^4.21.1"
+  }
+}
